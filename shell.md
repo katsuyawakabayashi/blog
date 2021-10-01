@@ -43,3 +43,11 @@ Links
 `echo $0`
 - See installed shells
 `cat shells`
+
+How to run C in Emacs
+
+[https://www3.cs.stonybrook.edu/~alee/g++/g++on_emacs.html](https://www3.cs.stonybrook.edu/~alee/g++/g++on_emacs.html)
+
+Emacs Cheatsheet
+
+[https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf](https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf)
