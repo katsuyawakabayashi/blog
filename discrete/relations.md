@@ -12,3 +12,7 @@ Suppose X is a set and R is a relation on X
 ### Symmetric
 
 - R is reflexive if (x, y) ∈ R ⇔ (y, x) ∈ R for any x ∈ X
+
+### Transitive
+
+- R is transitive if (x, y) ∈ R and (y, x) ∈ R then (x, z) ∈ R
