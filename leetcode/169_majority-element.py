@@ -1,3 +1,4 @@
+# boyer-moore algorithm solution
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         count = 1
@@ -16,3 +17,10 @@ class Solution:
                         maj_num = nums[i]
                 
         return maj_num
+    
+# set solution
+class Solution:
+    def majorityElement(self, nums: List[int]) -> int:
+        for i in set(nums):
+            if nums.count(i) > (len(nums)//2):
+                return i
