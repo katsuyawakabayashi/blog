@@ -14,3 +14,7 @@ class Solution:
             if l == r or l+1 == r:
                 if strx[l] == strx[r]:
                     return True
+
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        return False if x < 0 else str(x) == str(x)[::-1]
